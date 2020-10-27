@@ -6,7 +6,7 @@ import tkinter as tk
 
 os.chdir("..")
 assets_folder = os.getcwd() + "/assets"
-
+print(assets_folder)
 
 class Card:
 

@@ -14,7 +14,6 @@ class GameState:
         for i in range(2):
             self.player_hand.add_card(self.deck.deal())
             self.dealer_hand.add_card(self.deck.deal())
-
         self.has_winner = ''
 
     def player_is_over(self):
